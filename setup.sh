@@ -19,7 +19,7 @@ cd ~/ && git clone https://github.com/echoOly/vim.git
 mv -f ~/.vim ~/.vim_old
 mv -f ~/vim ~/.vim
 mv -f ~/.vimrc ~/.vimrc_old
-mv -f ~/.vim/.vimrc ~/
+cp -f ~/.vim/.vimrc ~/
 git clone https://github.com/echoOly/Vundle.vim.git ~/.vim/bundle/vundle
 echo "tt正在努力为您安装bundle程序" > tt
 echo "安装完毕将自动退出" >> tt

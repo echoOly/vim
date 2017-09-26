@@ -37,7 +37,7 @@ clone配置文件
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
     $ mv ~/vim ~/.vim`
     $ cp ~/.vim/.vimrc ~/
-    $ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 
 打开vim并执行bundle程序
 

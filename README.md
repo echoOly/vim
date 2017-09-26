@@ -1,8 +1,8 @@
 # vim
 强大的编辑器，配置好了无所不能；下面是本人长期使用，集成的配置；
 
-[Github地址](https://github.com/echoOly/vim)
-[更多mac|linux实用用工具](https://echooly.gitbooks.io/mac-linux/content/)
+* [Github地址](https://github.com/echoOly/vim)
+* [更多mac|linux实用用工具](https://echooly.gitbooks.io/mac-linux/content/)
 
 ### Install
 

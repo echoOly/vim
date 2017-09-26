@@ -8,10 +8,10 @@
 
 #### 执行shell脚本自动安装：(以ubuntu为例)
 
+    $ mv -f ~/.vimrc ~/.vimrc_old
+    $ mv -f ~/vim ~/vim_old
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
-    $ mv ~/vim ~/.vim
-    $ cd ~/.vim
-    $ sh setup.sh
+    $ cd ~/vim && sh setup.sh
 
 #### 手动安装：(以ubuntu为例)
 

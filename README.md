@@ -2,6 +2,7 @@
 强大的编辑器，配置好了无所不能；下面是本人长期使用，集成的配置；
 
 [Github地址](https://github.com/echoOly/vim)
+[更多mac|linux实用用工具](https://echooly.gitbooks.io/mac-linux/content/)
 
 ### Install
 
@@ -49,6 +50,3 @@ clone配置文件
 
 ![screenshot.png](https://github.com/echoOly/vim/blob/master/screenshot.png?raw=true)
 
-### 查看更新日志：
-
-[`update_log.md`](update_log.md)

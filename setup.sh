@@ -19,7 +19,7 @@ sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
 # cd ~/ && git clone https://github.com/echoOly/vim.git
 mv -f ~/vim ~/.vim
 cp -f ~/.vim/.vimrc ~/
-git clone https://github.com/echoOly/Vundle.vim.git ~/.vim/bundle/vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 echo "tt正在努力为您安装bundle程序" > tt
 echo "安装完毕将自动退出" >> tt
 echo "请耐心等待" >> tt

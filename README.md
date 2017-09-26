@@ -10,6 +10,7 @@
 
     $ cd ~/ && git clone https://github.com/echoOly/vim.git
     $ mv ~/vim ~/.vim
+    $ cd ~/.vim
     $ sh setup.sh
 
 #### 手动安装：(以ubuntu为例)

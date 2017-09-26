@@ -14,11 +14,10 @@ fi
 
 sudo easy_install -ZU autopep8 
 sudo ln -s /usr/bin/ctags /usr/local/bin/ctags
-mv -f ~/vim ~/vim_old
-cd ~/ && git clone https://github.com/echoOly/vim.git
-mv -f ~/.vim ~/.vim_old
+
+# 如果已经clone了就不用重复clone
+# cd ~/ && git clone https://github.com/echoOly/vim.git
 mv -f ~/vim ~/.vim
-mv -f ~/.vimrc ~/.vimrc_old
 cp -f ~/.vim/.vimrc ~/
 git clone https://github.com/echoOly/Vundle.vim.git ~/.vim/bundle/vundle
 echo "tt正在努力为您安装bundle程序" > tt

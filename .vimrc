@@ -117,7 +117,7 @@ func SetTitle()
         call setline(line("."), "/*============================================================================")
         call append(line("."), "*     FileName: ".expand("%"))
         call append(line(".")+1, "*         Desc: ")
-        call append(line(".")+2, "*       Author: tangyongping@baidu.com")
+        call append(line(".")+2, "*       Author: yptangecho@163.com")
         call append(line(".")+3, "*      Version: 1.0")
         call append(line(".")+4, "*   LastChange: ".strftime("%Y-%m-%d"))
         call append(line(".")+5, "*      History: ")
@@ -284,9 +284,9 @@ set backspace=2
 " 允许backspace和光标键跨越行边界
 set whichwrap+=<,>,h,l
 " 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）
-set mouse=a
-set selection=exclusive
-set selectmode=mouse,key
+"set mouse=a
+"set selection=exclusive
+"set selectmode=mouse,key
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
 set report=0
 " 在被分割的窗口间显示空白，便于阅读
